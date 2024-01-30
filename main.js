@@ -5,6 +5,6 @@ setInterval(() => {
     bubble.style.transform = `translate(${Math.random() * 100}vw, ${
       Math.random() * 100
     }vh)`;
-    bubble.style.background = `hsl(${Math.random() * 360}, 20%, 50%)`;
+    bubble.style.background = `hsl(${Math.random() * 360}, 50%, 50%)`;
   });
 }, 2000);
